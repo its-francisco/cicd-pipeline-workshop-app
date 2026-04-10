@@ -8,7 +8,7 @@ on:
       - fix/*
     paths:
       - "backend/**"
-      - cicd-pipeline-workshop-app/.github/workflows/ci-backend.yml
+      - ./cicd-pipeline-workshop-app/.github/workflows/ci-backend.yml
   pull_request:
     branches: [main]
     paths:
